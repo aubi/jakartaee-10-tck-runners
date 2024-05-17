@@ -138,6 +138,7 @@
                                 <version>1.6</version>
                         </dependency>
                     </artifactItems>
+                    <excludeArtifactIds>jakarta.enterprise.concurrent-tck</excludeArtifactIds> 
                     <outputDirectory>${project.build.directory}/server-dependencies</outputDirectory>
                 </configuration>
             </plugin>  
